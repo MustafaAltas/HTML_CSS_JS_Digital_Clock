@@ -11,7 +11,7 @@ function clock() {
   if (currentHour > 0 && currentHour < 12) {
     info.innerText = "P.M";
   } else {
-    currentHour = 24 - currentHour;
+    currentHour = currentHour - 12;
     info.innerText = "A.M";
   }
 
