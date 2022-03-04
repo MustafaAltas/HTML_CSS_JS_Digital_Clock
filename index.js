@@ -1,4 +1,4 @@
-function clock() {
+Pfunction clock() {
   let hour = document.querySelector(".hour");
   let minute = document.querySelector(".minute");
   let second = document.querySelector(".second");
@@ -9,10 +9,10 @@ function clock() {
   let currentSecond = new Date().getSeconds();
 
   if (currentHour > 0 && currentHour < 12) {
-    info.innerText = "P.M";
+    info.innerText = "A.M";
   } else {
     currentHour = currentHour - 12;
-    info.innerText = "A.M";
+    info.innerText = "P.M";
   }
 
   if (currentHour < 10) {
