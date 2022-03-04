@@ -1,4 +1,4 @@
-Pfunction clock() {
+function clock() {
   let hour = document.querySelector(".hour");
   let minute = document.querySelector(".minute");
   let second = document.querySelector(".second");
