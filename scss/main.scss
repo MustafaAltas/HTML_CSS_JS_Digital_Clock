@@ -1,0 +1,15 @@
+@import "./variables";
+@import "./reset";
+@import "./responsive";
+
+.container {
+    width: 50vw;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10rem;
+    color: $clkColor;
+    font-family: $fontFamily;
+    font-weight: 100;
+}
