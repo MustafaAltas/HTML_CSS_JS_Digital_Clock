@@ -8,8 +8,9 @@ function clock() {
   let curretnMinute = new Date().getMinutes();
   let currentSecond = new Date().getSeconds();
 
-  if (currentHour > 0 && currentHour < 12) {
+  if ( currentHour < 12) {
     info.innerText = "A.M";
+    
   } else {
     currentHour = currentHour - 12;
     info.innerText = "P.M";
